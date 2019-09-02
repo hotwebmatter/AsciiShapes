@@ -24,25 +24,26 @@ namespace AsciiShapes
         static void GenerateShapes(int width)
         {
             WriteLine("The desired width is {0}.", width);
-            WriteLine("Algorithm not yet implemented.");
+            WriteLine();
 
             // generate algorithmic Shapes
             int j = 1;
-            for (int i = 1; i < (width * 2) - 1; i = i + 2)
+            for (int i = 1; i < width * 2; i = i + 2)
             {
                 // square
                 RepeatChar("*", width);
                 RepeatChar(" ", 5);
 
                 // triangle
-                RepeatChar(" ", (width - i) / 2);
+                RepeatChar(" ", ((width * 2) - i) / 2);
                 RepeatChar("*", i);
-                RepeatChar(" ", (width - i) / 2);
+                RepeatChar(" ", ((width * 2) - i) / 2);
 
                 // diamond
-                RepeatChar(" ", (width - j) / 2);
+                RepeatChar(" ", ((width * 2) - j) / 2);
                 RepeatChar("*", j);
                 WriteLine();
+                // WriteLine("Width: {0}\ti: {1}\tj: {2}", width, i, j);
 
                 if (i < width)
                 {
