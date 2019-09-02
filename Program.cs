@@ -43,7 +43,6 @@ namespace AsciiShapes
                 RepeatChar(" ", ((width * 2) - j) / 2);
                 RepeatChar("*", j);
                 WriteLine();
-                // WriteLine("Width: {0}\ti: {1}\tj: {2}", width, i, j);
 
                 if (i < width)
                 {
