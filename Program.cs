@@ -26,27 +26,33 @@ namespace AsciiShapes
             WriteLine("The desired width is {0}.", width);
             WriteLine("Algorithm not yet implemented.");
 
-            /* generate algorithmic Shapes
-            for (int i = 0; i < width / 2; i++)
+            // generate algorithmic Shapes
+            int j = 1;
+            for (int i = 1; i < (width * 2) - 1; i = i + 2)
             {
-                RepeatChar(" ", i + 1);
-                RepeatChar("#", 1);
-                RepeatChar(" ", width - (2 * (i + 1)));
-                WriteLine("#");
+                // square
+                RepeatChar("*", width);
+                RepeatChar(" ", 5);
+
+                // triangle
+                RepeatChar(" ", (width - i) / 2);
+                RepeatChar("*", i);
+                RepeatChar(" ", (width - i) / 2);
+
+                // diamond
+                RepeatChar(" ", (width - j) / 2);
+                RepeatChar("*", j);
+                WriteLine();
+
+                if (i < width)
+                {
+                    j = j + 2;
+                }
+                else
+                {
+                    j = j - 2;
+                }
             }
-            if (width % 2 != 0)
-            {
-                RepeatChar(" ", (width / 2) + 1);
-                WriteLine("#");
-            }
-            for (int i = (width / 2) - 1; i > -1; i--)
-            {
-                RepeatChar(" ", i + 1);
-                RepeatChar("#", 1);
-                RepeatChar(" ", width - (2 * (i + 1)));
-                WriteLine("#");
-            }
-            */
         }
         static void Main(string[] args)
         {
