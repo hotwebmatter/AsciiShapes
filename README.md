@@ -1,5 +1,10 @@
 # AsciiShapes
-Ninth programming exercise for C# class
+Ninth programming exercise for C# class.
+
+Menu based on HolaMundo exercise.
+
+Note that the algorithmic solution, like the algorithmic AsciiX,
+requires a large console to display correctly at higher widths.
 
 ## Example output
 ```
