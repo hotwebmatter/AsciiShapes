@@ -1,4 +1,13 @@
-﻿using System;
+/**
+ * ######################################################
+ * ##    Programming Assignment #9                     ##
+ * ##    Developer: Matthew Obert                      ##
+ * ##    Date Submitted: September 06 2019             ##
+ * ##    Purpose: Generate algorithmic shapes.         ##
+ * ######################################################
+ */
+
+using System;
 using static System.Console;
 
 namespace AsciiShapes
