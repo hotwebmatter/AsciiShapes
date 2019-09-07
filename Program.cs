@@ -49,7 +49,7 @@ namespace AsciiShapes
                 RepeatChar(" ", ((width * 2) - i) / 2);
 
                 // diamond
-                RepeatChar(" ", ((width * 2) - j) / 2);
+                RepeatChar(" ", (width - j) / 2);
                 RepeatChar("*", j);
                 WriteLine();
 
