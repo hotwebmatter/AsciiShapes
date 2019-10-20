@@ -1,6 +1,8 @@
 # AsciiShapes
 Ninth programming exercise for C# class.
 
+Not actually assigned by professor, just based on exercise in textbook.
+
 Menu based on HolaMundo exercise.
 
 Note that the algorithmic solution, like the algorithmic AsciiX,
