@@ -8,8 +8,6 @@ Menu based on HolaMundo exercise.
 Note that the algorithmic solution, like the algorithmic AsciiX,
 requires a large console to display correctly at higher widths.
 
-README updated Feb 29 2020 to bring this project into the top 3 listed on my GitHub Overview.
-
 ## Example output
 ```
 Choose an option:
